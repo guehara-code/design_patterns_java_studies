@@ -16,19 +16,19 @@ class ConcreteDecoratorEx1 extends AbstractDecorator {
     public void doJob() {
         super.doJob();
 
-        // add additional responsabilities
-        System.out.println("I am explicity form Ex_1");
+        // add additional responsibilities
+        System.out.println("I am explicitly form Ex_1");
     }
 }
 
 class ConcreteDecoratorEx2 extends AbstractDecorator {
     public void doJob() {
         System.out.println("");
-        System.out.println("***START Ex-_2***");
+        System.out.println("***START Ex_2***");
 
         super.doJob();
 
-        // add additional responsabilities
+        // add additional responsibilities
         System.out.println("Explicitly from decorator Ex_2");
         System.out.println("***END. Ex_2***");
     }
