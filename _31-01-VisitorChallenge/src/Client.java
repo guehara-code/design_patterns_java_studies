@@ -25,11 +25,11 @@ public class Client {
 
         Visitor visitor = new USPostageVisitor();
         double myPostage = calculatePostage(visitor);
-        System.out.println("The total postage for my items is: " + myPostage);
+        System.out.println("The total postage for my items shipped to the US is: " + myPostage);
 
         visitor = new SouthAmericaPostageVisitor();
         myPostage = calculatePostage(visitor);
-        System.out.println("The total postage for my items is: " + myPostage);
+        System.out.println("The total postage for my items shipped to the South America is: " + myPostage);
 
     }
 }
